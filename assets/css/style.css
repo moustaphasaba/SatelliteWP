@@ -1,0 +1,115 @@
+.cust-button-div{
+    background-color:#ffffff;
+    padding:30px;
+    position: relative;
+    border-radius:5px;
+    top:0
+}
+
+#website-url{
+    width:70%;
+    padding: .5em;
+    border-radius:5px 0 0 5px;
+}
+
+#test-results{
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.test-loader{
+    position: absolute;
+    margin-top: 18px;
+}
+
+.test-loader-img{
+    width:5%
+}
+
+.test-button{
+    width:25%;
+    cursor: pointer;
+    padding: 1em;
+    border: 0.15em solid #000000;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    background-color: #2271b1;
+    border-radius:0 5px 5px 0;
+    transition: all 0.15s;
+}
+
+.low-score{
+    color:#ff4e42;
+}
+
+.middle-score{
+    color:#ffa400;
+}
+
+.high-score{
+    color:#0cce6b;
+}
+
+.test-button:hover{
+    color: #dddddd;
+    border-color: #dddddd;
+}
+
+.test-button:active{
+    color: #bbbbbb;
+    border-color: #bbbbbb;
+}
+
+@media all and ( max-width:30em ){
+    .test-button{
+        display: block;
+        margin:0.4em auto;
+    }
+}
+
+body.post-type-site .wrap .subsubsub,
+body.post-type-site .wrap #posts-filter .tablenav,
+body.post-type-site .wrap #posts-filter .search-box, 
+body.post-type-site .wrap #posts-filter .wp-list-table .title .row-actions{
+    display: none;
+}
+
+body.post-type-site .wrap #posts-filter{
+    height:300px;
+    overflow-y:auto;
+    margin-bottom:10px;
+    border-bottom:1px solid #d2d3d5;
+}
+
+#test-error-message{
+    background-color:#ffdbdb;
+    text-align:center;
+    padding:10px;
+    line-height:1.5em;
+    border-radius:5px;
+    border:1px solid #ff0000;
+}
+
+#test-error-message span{
+    font-weight:bold;
+    text-transform:uppercase;
+    color:#ff0000
+}
+
+.test-result-value{
+    font-weight:bold;
+    font-size:13px;
+}
+
+.test-result-key{
+    color:#2271b1
+}
+
+.site-score{
+    font-size:30px;
+    font-weight:bold;
+}
